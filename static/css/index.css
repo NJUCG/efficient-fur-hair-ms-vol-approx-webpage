@@ -2,22 +2,24 @@
 :root {
   --primary-color: #2563eb;
   --primary-hover: #1d4ed8;
-  --secondary-color: #64748b;
-  --accent-color: #0ea5e9;
-  --text-primary: #1e293b;
-  --text-secondary: #64748b;
+  --primary-light: #3b82f6;
+  --secondary-color: #475569;
+  --accent-color: #0284c7;
+  --accent-light: #0ea5e9;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
   --text-light: #94a3b8;
   --background-primary: #ffffff;
-  --background-secondary: #f8fafc;
-  --background-accent: #f1f5f9;
-  --border-color: #e2e8f0;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  --gradient-subtle: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  --background-secondary: #f4f7fc;
+  --background-accent: #e8f0fe;
+  --border-color: #dbeafe;
+  --shadow-sm: 0 1px 2px 0 rgb(37 99 235 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(37 99 235 / 0.08), 0 2px 4px -2px rgb(37 99 235 / 0.06);
+  --shadow-lg: 0 10px 15px -3px rgb(37 99 235 / 0.08), 0 4px 6px -4px rgb(37 99 235 / 0.06);
+  --shadow-xl: 0 20px 25px -5px rgb(37 99 235 / 0.1), 0 8px 10px -6px rgb(37 99 235 / 0.08);
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  --gradient-accent: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+  --gradient-subtle: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
   --border-radius: 12px;
   --border-radius-lg: 16px;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -163,13 +165,13 @@ body {
 }
 
 .publication-awards {
-    color: #ef4444;
+    color: #2563eb;
     width: fit-content;
     font-weight: 700;
-    background: linear-gradient(135deg, #fef2f2, #fee2e2);
+    background: linear-gradient(135deg, #eff6ff, #dbeafe);
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
-    border-left: 4px solid #ef4444;
+    border-left: 4px solid #2563eb;
     margin-top: 1rem;
 }
 
